@@ -1,0 +1,145 @@
+:root {
+  --b: #343f50;
+  --w: white;
+  --h: "Roboto", sans-serif;
+  --gras: 900;
+  --regular: 400;
+  --light: 100;
+  --value: 10px;
+}
+
+.bleu {
+  background: var(--b);
+}
+
+.blanc {
+  background: var(--w);
+  padding-top: 18vh;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.bas {
+  min-height: 30vh;
+}
+
+h1 {
+  font-family: var(--h);
+  font-weight: var(--b);
+  font-size: 70px;
+  margin-bottom: 80px;
+}
+
+p {
+  font-family: var(--b);
+  font-weight: var(--regular);
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-weight: var(--light);
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  font-family: var(--h);
+  padding-bottom: 15px;
+}
+
+h3 {
+  margin: 50px 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  text-align: center;
+  display: block;
+  height: 5vh;
+  width: 100%;
+}
+
+a,
+li {
+  text-decoration: none;
+  color: white;
+}
+
+#metier,
+h1,
+h3 {
+  color: gray;
+  text-align: center;
+}
+
+
+
+hgroup {
+  margin-bottom: 8vh;
+}
+
+.moi {
+  color: black;
+}
+
+figure {
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  margin: 5% auto;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  line-height: 100px;
+}
+
+figcaption {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 100vh;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  transition: 0.5s linear;
+}
+
+figure > img {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+figure:hover > figcaption {
+  top: 0;
+}
+
+#cv {
+  position: fixed;
+  right: 0px;
+  color: rgb(10, 9, 9, 0.3);
+  font-weight: bold;
+  font-size: 30px;
+  background: rgba(24, 23, 23, 0.3);
+  text-decoration: none;
+}
+
+#simple {
+  position: fixed;
+  right: 0;
+  font-weight: bold;
+  color: rgb(10, 9, 9, 0.3);
+  top: 59px;
+  font-size: 30px;
+  background: rgba(24, 23, 23, 0.3);
+  text-decoration: none;
+}
